@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    /* height: 100%; */
+}
+
+
+
+/* About section */
+#about{
+    /* padding-top: 2.5rem; */
+    position: relative;
+}
+
+.about-container{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container,
+.about-details-container{
+    display:flex;
+}
+
+.desc-container{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.desc-container h1{
+    color : rgb(87, 65, 40);
+}
+
+.icon-abt{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.desc-container p{
+    color : rgb(87, 65, 40);
+}
+
+.desc-container p span{
+    color : rgb(87, 65, 40);
+    font-weight: 600;
+}
+
+.abt-wave {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.abt-wave svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 127px;
+    transform: rotateY(180deg);
+}
+
+.abt-wave .shape-fill {
+    fill: #FFF8ED;
+}
+
+/* facilities section */
+#facilities{
+    width: 100%;
+}
+
+.facilities-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FFF8ED;
+}
+
+.facilities-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+/* .facilities-gallery .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+     gap: 15px;
+} */
+
+.facilities-gallery .dream img{
+    width: 30%;
+    /* padding-bottom: 15px; */
+    /* border-radius: 5px; */
+   
+}
+
+.custom-shape-divider-top-1716638392 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1716638392 svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 98px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1716638392 .shape-fill {
+    fill: #FFF8ED;
+}
+
+
+/* map section */
+#map{
+    padding-top: 2.5rem;
+    position: relative;
+}
+
+.map-title{
+    text-align: center;
+}
+
+.map-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer section*/
+footer{
+    /* height: 100%; */
+    width: 100%;
+    /* margin: 0; */
+    background : rgb(135, 100, 69);
+    position: absolute;
+    /* bottom: 0; */
+}
+
+.content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 2rem;
+}
+
+.logo-footer{
+    /* display: flex; */
+    align-items: center;
+    gap: 1rem;
+    margin-right: 30%;
+}
+
+.logo-footer p{
+    font-size: 0.8rem;
+    color: rgb(255, 243, 221);
+}
+
+.logo-img{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-footer ul{
+    margin-top: 0.5rem;
+    list-style: none;
+    display: flex;
+    gap:3rem;
+}
+
+.nav-links {
+    margin: 0 auto;
+}
+
+.icon-footer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-footer a{
+    text-decoration: none;
+    color: rgb(255, 243, 221);
+}
+
+.nav-footer a:hover{
+    color: rgb(255, 243, 221);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+#horizontal-line{
+    margin-top: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    /* width: 100%; */
+    height: 1px;
+    background-color: rgb(255, 243, 221);
+}
+
+.copyright{
+    margin-right: 5rem;
+    padding-bottom: 0.1rem;
+}
+
+.copyright p{
+    font-size: 0.8rem;
+    text-align: end;
+    color: rgb(255, 243, 221);
+}

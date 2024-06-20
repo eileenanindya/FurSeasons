@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(87,65,40);
+}
+
+.logo a:hover{
+    color: rgb(87,65,40);
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: rgb(87,65,40);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.main-container{
+    /* width:1200px; */
+    margin:auto;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap:4rem;
+    /* align-items: start; */
+}
+
+.navbar li{
+    list-style: none;
+    display: flex;
+    align-items: start;
+}
+
+.nav-icon{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    list-style: none;
+    /* background-color: #f8f9fa; */
+    border-radius: 0.25rem;
+}
+
+.breadcrumb-item {
+    display: inline-flex;
+    align-items: center;
+    color: #007bff;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    display: inline-block;
+    padding: 0 0.5rem;
+    color: rgb(135, 100, 69);
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: rgb(135, 100, 69);;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1rem;    
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+}
+
+/* Additional styles for better spacing */
+.breadcrumb-item + .breadcrumb-item {
+    margin-left: 0.5rem;
+}
+
+#profile-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    /* display: none; */
+    padding: 8px 16px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #ddd;
+}
+
+/* Show dropdown menu on hover */
+#profile-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.custom-shape-divider-top-1716638392 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1716638392 svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 98px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1716638392 .shape-fill {
+    fill: #FFF8ED;
+}
+
+.product_quantity{
+    width: 20%;
+    background: #FFFF;
+    border: none;
+    padding: 1px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.add-submit{
+    border: none;
+    background: rgb(255, 247, 238);
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+/* Footer section */
+footer {
+    /* height: 100%; */
+    width: 100%;
+    /* margin: 0; */
+    background: rgb(135, 100, 69);
+    position: absolute;
+    /* bottom: 0; */
+}
+
+.content {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 2rem;
+}
+
+.logo-footer {
+    /* display: flex; */
+    align-items: center;
+    gap: 1rem;
+    margin-right: 30%;
+}
+
+.logo-footer p {
+    font-size: 0.8rem;
+    color: rgb(255, 243, 221);
+}
+
+.logo-img {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: flex-end;  /* Menyelaraskan ke kanan */
+    width: 100%;
+}
+
+.nav-footer ul {
+    margin-top: 0.5rem;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(87, 65, 40);
+}
+
+.nav-links a:hover {
+    color: rgb(87, 65, 40);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.horizontal-line {
+    border: 0; /* Menghapus border default */
+    height: 1px; /* Mengatur tinggi garis */
+    background-color: #000; /* Warna garis */
+    margin-top: 1rem; /* Jarak antara garis dan elemen sebelumnya */
+    margin-bottom: 1rem; /* Jarak antara garis dan elemen setelahnya */
+}
+
+.dproduct select {
+    display: block;
+    padding: 5px 10px;
+}
+
+.dproduct input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+.image-row {
+    margin-left: 3rem;
+    display: flex;
+    align-items: center; /* Menempatkan gambar di bagian atas */
+    margin-bottom: 3rem; /* Atur margin-bottom yang lebih kecil */
+    margin-top: 3rem;
+}
+
+.info-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.details-container {
+    display: flex;
+    align-items: center; /* Menempatkan elemen di bagian atas */
+    justify-content: space-between; /* Menyusun elemen secara merata */
+    gap: 8rem;
+    margin-top: none;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+}
+
+.details-container {
+    display: flex;
+}
+
+.desc-container {
+    width: calc(50% - 1rem); /* Mengatur lebar agar lebih kecil */
+    text-align: left; /* Menempatkan teks di kiri */
+}
+
+.desc-container h1 {
+    color: rgb(87, 65, 40);
+}
+
+.icon-abt {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.desc-container p {
+    color: rgb(87, 65, 40);
+}
+
+.desc-container p span {
+    color: rgb(87, 65, 40);
+    font-weight: 600;
+}
+
+.section-container {
+    background-color: rgb(255, 247, 238);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 4rem;
+    border-radius: 20px;
+}
+.select-size {
+    padding: 10px 20px; /* Padding tombol */
+    border: none;
+    border-radius: 18px; /* Border radius tombol/lengkung */
+    margin-bottom: 2rem;
+    width: 100%; /* Mengatur lebar tombol menjadi 100% dari kontainer induknya */
+    max-width: 100px; /* Atau Anda bisa menggunakan nilai spesifik seperti 400px */
+    text-align: center; /* Memusatkan teks secara horizontal */
+    
+}
+
+.add-to-cart-button {
+    background-color: rgb(255, 247, 238); /* Warna latar belakang tombol */
+    color: rgb(69, 50, 28); /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border-color: rgb(69, 50, 28);
+    border-radius: 18px; /* Border radius tombol/lengkung */
+    cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+}
+
+.divider {
+    border: 0; /* Menghapus border default */
+    height: 1px; /* Mengatur tinggi garis */
+    background-color: rgb(87, 65, 40); /* Warna garis */
+    margin: 1.5rem 0; /* Margin atas dan bawah garis */
+}
+
+
+.copyright{
+    margin-right: 5rem;
+    padding-bottom: 0.1rem;
+}
+
+.copyright p{
+    font-size: 0.8rem;
+    text-align: end;
+    color: rgb(255, 243, 221);
+}

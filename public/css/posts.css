@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+}
+
+/* Gaya untuk menampilkan gambar bersebelahan di atas Additional Information */
+.image-row1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.info-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya umum */
+
+
+/* nav bar */
+.nav a {
+    text-decoration: none;
+    color: rgb(87, 65, 40);
+}
+
+.logo a:hover {
+    color: rgb(87, 65, 40);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb(87, 65, 40);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.main-container {
+    /* width:1200px; */
+    margin: auto;
+}
+
+/* About section */
+#about {
+    /* padding-top: 2.5rem; */
+    position: relative;
+}
+
+.about-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container,
+.about-details-container {
+    display: flex;
+}
+
+.desc-container {
+    /* margin-top: 5rem; */
+    margin-left: 5rem;
+    margin-bottom: 8rem;
+    text-align: center;  /* Menempatkan teks di tengah secara horizontal */
+    /* width: 100%; */
+}
+
+.desc-countainer-title {
+    margin-bottom: none;
+}
+.desc-countainer-sub {
+    margin-top: none;
+}
+.desc-container h1 {
+    color: rgb(87, 65, 40);
+}
+
+.icon-abt {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.desc-container p {
+    margin-top: 0px;
+    color: rgb(87, 65, 40);
+}
+
+.desc-container p span {
+    color: rgb(87, 65, 40);
+    font-weight: 600;
+}
+
+/* Footer section */
+footer {
+    /* height: 100%; */
+    width: 100%;
+    /* margin: 0; */
+    background: rgb(135, 100, 69);
+    position: absolute;
+    /* bottom: 0; */
+}
+
+.content {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 2rem;
+}
+
+.logo-footer {
+    /* display: flex; */
+    align-items: center;
+    gap: 1rem;
+    margin-right: 30%;
+}
+
+.logo-footer p {
+    font-size: 0.8rem;
+    color: rgb(255, 243, 221);
+}
+
+.logo-img {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: flex-end;  /* Menyelaraskan ke kanan */
+    width: 100%;
+}
+
+.nav-footer ul {
+    margin-top: 0.5rem;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.nav-footer a{
+    text-decoration: none;
+    color: rgb(255, 243, 221);
+}
+
+.nav-footer a:hover{
+    color: rgb(255, 243, 221);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.nav-links {
+    margin: 0 auto;
+}
+
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(87, 65, 40);
+}
+
+.nav-links a:hover {
+    color: rgb(87, 65, 40);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+
+.copyright{
+    margin-right: 5rem;
+    padding-bottom: 0.1rem;
+}
+
+.copyright p{
+    font-size: 0.8rem;
+    text-align: end;
+    color: rgb(255, 243, 221);
+}
